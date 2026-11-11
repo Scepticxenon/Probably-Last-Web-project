@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+  </head>
+  <style>
+    .header {
+      position: relative;
+      min-height: 160px;
+      margin-top: 20px;
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+    .school-panel {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 190px;
+    }
+
+    .school-brand {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 10px;
+      border: 2px solid #345b3b;
+      border-radius: 8px;
+      background-color: #f5f8f3;
+      color: #24452b;
+      font-family: Georgia, serif;
+      font-size: 16px;
+      line-height: 1.3;
+      text-align: center;
+    }
+
+    .hyperlinks {
+      width: 100%;
+      margin-top: 8px;
+      table-layout: fixed;
+      font-size: 13px;
+    }
+
+    .hyperlinks th,
+    .hyperlinks td {
+      padding: 6px 8px;
+      overflow-wrap: anywhere;
+    }
+
+    .school-brand img {
+      display: block;
+      width: 100px;
+      height: 85px;
+      margin: 0 auto 8px;
+      object-fit: contain;
+    }
+
+    table {
+      width: auto;
+      margin: 0 auto;
+    
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      border: 1px solid #999;
+      padding: 10px 14px;
+      text-align: center;
+    }
+
+    th {
+      background-color: transparent;
+    }
+
+    body {
+      background-color: transparent;
+    }
+    
+
+    .Secondbox {
+      text-align: center;
+      margin-top: 210px;
+    }
+
+    .homepage {
+      text-align: center;
+    }
+    .teacher-list {
+      max-width: 700px;
+      margin: 20px 0;
+    }
+
+    .teacher-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 160px;
+      min-height: 130px;
+      border-bottom: 1px solid #999;
+    }
+
+    .teacher-name {
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 12px;
+    }
+
+    .teacher-photo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      padding: 12px;
+      border-left: 1px solid #345b3b;
+    }
+
+    .teacher-photo img,
+    .teacher-photo-placeholder {
+      width: 100px;
+      height: 100px;
+      box-sizing: border-box;
+    }
+
+    .teacher-photo img {
+      object-fit: cover;
+    }
+
+    .teacher-photo-placeholder {
+      display: grid;
+      place-items: center;
+      border: 1px dashed #777;
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+  <body>
+    <header class="header">
+      My Learning Space
+      <div class="school-panel">
+        <div class="school-brand">
+          <img src="Cordova.jpeg" alt="Cordova International School logo" />
+          <div>Cordova Intl School&amp;College</div>
+        </div>
+        <table class="hyperlinks">
+          <thead>
+            <tr>
+              <th scope="col">Page Name</th>
+              <th scope="col">Hyperlinks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Homepage</td>
+              <td><a href="index.html">Click!</a></td>
+            </tr>
+            <tr>
+              <td>Meet My Teachers</td>
+              <td><a href="Meet My Teachers.html">Click!</a></td>
+            </tr>
+            <tr>
+              <td>Meet My Classmates</td>
+              <td><a href="Meet my classmates.html">Click!</a></td>
+            </tr>
+            <tr>   
+                <td>My Class Routine</td>
+                <td><a href="My Class Routine.html">Click!</a></td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </header>
+
+
+    
+
+      
+    
+    <hr class="Secondbox" />
+    <div class="homepage">My Teachers</div>
+    <hr />
+    <section class="teacher-list" aria-label="Teacher names and photos">
+      <div class="teacher-row">
+        <p class="teacher-name">&bull;Zenia Miss (Teacher Of Computer Science</p>
+        <figure class="teacher-photo">
+          <img src="Zenia.jpeg" alt="Zenia Miss" />
+        </figure>
+      </div>
+      <div class="teacher-row">
+      <p class="teacher-name">&bull;Kazal Sir(Teacher Of Bangla Second Paper)</p>
+        <figure class="teacher-photo">
+          <img src="Kazal.jpeg" alt="Kazal Sir" />
+        </figure>
+      </div>
+      <div class="teacher-row">
+        <p class="teacher-name">&bull;Alam Sir(Teacher Of History & Science)
+            
+        </p>
+        <figure class="teacher-photo">
+            <img src="Alam.jpeg" alt="Alam Sir" />
+        </figure>
+      </div>
+      <div class="teacher-row">
+        <p class="teacher-name">&bull;Alamin Sir(Teacher Of Chemistry)</p>
+        <figure class="teacher-photo">
+            <img src="Alamin.jpeg" alt="Alamin Sir" />
+       
+        </figure>
+      </div>
+      <div class="teacher-row">
+        <p class="teacher-name">&bull;Aftab Sir (Teacher Of English Language and also our Class teacher)</p>
+        <figure class="teacher-photo">
+          <img src="Aftab.jpeg"alt="Aftab Sir" />
+        </figure>
+      </div>
+      <div class="teacher-row">
+        <p class="teacher-name">&bull;Ashiq Sir </p>
+        <figure class="teacher-photo">
+          <img src="Ashiq sir.jpeg" alt="Ashiq Sir" />
+        </figure>
+      </div>
+      <div class="teacher-row">
+        <p class="teacher-name">&bull;Mizan sir <br>
+          Subject:Mathematics
+        </p>
+        <figure class="teacher-photo">
+          <img src="Mizan.jpeg" alt="Mizan Sir" />
+        </figure>
+      </div>
+      <div class="teacher-row">
+      <p class="teacher-name">&bull;Jaheda Miss
+
+        <br> Subject:Geography
+      </p>
+        <figure class="teacher-photo"
+>
+          <img src="Jaheda.jpeg" alt="Jaheda Miss" />
+        </figure>
+      </div>
+
+
+<div class="teacher-row">
+<p class="teacher-name">&bull;Nahar Miss
+  <br> Subject:Bangla First Paper
+</p>
+
+<figure class="teacher-photo">
+  <img src="Nahar.jpeg" alt="Nahar Miss" />
+</figure>
+</div>
+<div class="teacher-row">
+  <p class="teacher-name">&bull;Tamanna Miss <br>
+    
+    Subject:Biology
+  </p>
+  <figure class="teacher-photo">
+    <img src="Tamanna.jpeg" alt="Tamanna Miss" />
+  </figure>
+    </div>
+    
+
+
+    </section>
+  </body>

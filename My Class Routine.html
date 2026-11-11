@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+  </head>
+  <style>
+    .header {
+      position: relative;
+      min-height: 160px;
+      margin-top: 20px;
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+    .school-panel {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 190px;
+    }
+
+    .school-brand {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 10px;
+      border: 2px solid #345b3b;
+      border-radius: 8px;
+      background-color: #f5f8f3;
+      color: #24452b;
+      font-family: Georgia, serif;
+      font-size: 16px;
+      line-height: 1.3;
+      text-align: center;
+    }
+
+    .hyperlinks {
+      width: 100%;
+      margin-top: 8px;
+      table-layout: fixed;
+      font-size: 13px;
+    }
+
+    .hyperlinks th,
+    .hyperlinks td {
+      padding: 6px 8px;
+      overflow-wrap: anywhere;
+    }
+
+    .school-brand img {
+      display: block;
+      width: 100px;
+      height: 85px;
+      margin: 0 auto 8px;
+      object-fit: contain;
+    }
+
+    table {
+      width: auto;
+      margin: 0 auto;
+    
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      border: 1px solid #999;
+      padding: 10px 14px;
+      text-align: center;
+    }
+
+    th {
+      background-color: transparent;
+    }
+
+    body {
+      background-color: transparent;
+    }
+    
+
+    .Secondbox {
+      margin-top: 200px;
+      text-align: center;
+    }
+
+    .homepage {
+      text-align: center;
+    }
+    .about-me {
+      max-width: 700px;
+      margin: 48px auto;
+      padding: 20px;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    .about-me p {
+      margin: 16px 0;
+    }
+
+    .routine-heading {
+      margin: 24px 0 18px;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    .routine-heading h1 {
+      margin: 0;
+      color: #24452b;
+      font-size: 28px;
+    }
+
+    .routine-heading p {
+      margin: 4px 0;
+      color: #3f4b42;
+    }
+
+    .routine-scroll {
+      overflow-x: auto;
+      border: 1px solid #345b3b;
+      border-radius: 8px;
+      background-color: #fff;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .routine-table {
+      width: 100%;
+      min-width: 1000px;
+      border-collapse: collapse;
+      font-size: 15px;
+    }
+
+    .routine-table th,
+    .routine-table td {
+      border: 1px solid #c8d2c9;
+      padding: 12px 10px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .routine-table thead th {
+      position: sticky;
+      top: 0;
+      background-color: #345b3b;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .routine-table .period {
+      background-color: #edf3ed;
+      color: #24452b;
+      font-weight: bold;
+    }
+
+    .routine-table tbody tr:nth-child(even):not(.break-row) td {
+      background-color: #f7faf7;
+    }
+
+    .routine-table tbody tr:hover td,
+    .routine-table tbody tr:hover .period {
+      background-color: #e8f1e8;
+    }
+
+    .routine-table td:nth-child(2) {
+      white-space: nowrap;
+      font-weight: 600;
+    }
+
+    .routine-table .lesson {
+      display: block;
+      margin-bottom: 6px;
+      color: #202820;
+      line-height: 1.45;
+    }
+
+    .routine-table .teacher {
+      display: block;
+      color: #526456;
+      font-size: 13px;
+    }
+
+    .routine-table .break-row td {
+      background-color: #fff2d8;
+      color: #704d00;
+      font-weight: bold;
+    }
+
+    @media (max-width: 700px) {
+      .routine-heading h1 {
+        font-size: 23px;
+      }
+
+      .routine-table th,
+      .routine-table td {
+        padding: 9px 7px;
+      }
+    }
+  </style>
+  <body>
+    <header class="header">
+      My Learning Space
+      <div class="school-panel">
+        <div class="school-brand">
+          <img src="Cordova.jpeg" alt="Cordova International School logo" />
+          <div>Cordova Intl School&amp;College</div>
+        </div>
+        <table class="hyperlinks">
+          <thead>
+            <tr>
+              <th scope="col">Page Name</th>
+              <th scope="col">Hyperlinks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Homepage</td>
+              <td><a href="index.html">Click!</a></td>
+            </tr>
+            <tr>
+              <td>Meet My Teachers</td>
+              <td><a href="Meet%20My%20Teachers.html">Click!</a></td>
+            </tr>
+            <tr>
+              <td>Meet My Classmates</td>
+              <td><a href="Meet%20my%20classmates.html">Click!</a></td>
+            </tr>
+            <tr>
+              <td>My Class Routine</td>
+              <td><a href="My%20Class%20Routine.html">Click!</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </header>
+
+
+   
+    
+
+      
+    
+    <hr class="Secondbox" />
+    <div class="homepage">My Class Routine</div>
+    <hr />
+    <div class="routine-heading">
+      <h1>Cordova Intl' School &amp; College</h1>
+      <p>Class Routine</p>
+      <p><strong>STD VII (2026)</strong></p>
+    </div>
+    <div class="routine-scroll">
+      <table class="routine-table">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Time</th>
+            <th scope="col">Sunday</th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="period" scope="row">1</th>
+            <td>08:30 – 09:20</td>
+            <td><span class="lesson">Eng Lag<br />New Eng<br />R Jones</span><span class="teacher">Mr Aftab</span></td>
+            <td><span class="lesson">Eng Lag<br />New Eng<br />R Jones</span><span class="teacher">Mr Aftab</span></td>
+            <td><span class="lesson">Eng Lag<br />S. Eng</span><span class="teacher">Mr Aftab</span></td>
+            <td><span class="lesson">E Lang<br />Grammar<br />Builder</span><span class="teacher">Mr Aftab</span></td>
+            <td><span class="lesson">Eng Lag<br />Grammar<br />Builder &amp; Creative Writing</span><span class="teacher">Mr Aftab</span></td>
+          </tr>
+          <tr>
+            <th class="period" scope="row">2</th>
+            <td>09:20 – 10:05</td>
+            <td><span class="lesson">Oxford History</span><span class="teacher">Mr Alam</span></td>
+            <td><span class="lesson">Bangla 2nd Paper</span><span class="teacher">Mr Kazal</span></td>
+            <td><span class="lesson">Bangla 2nd Paper</span><span class="teacher">Mr Kazal</span></td>
+            <td><span class="lesson">Chemistry</span><span class="teacher">Mr Al Amin</span></td>
+            <td><span class="lesson">Maths</span><span class="teacher">Mr Mizan</span></td>
+          </tr>
+          <tr>
+            <th class="period" scope="row"></th>
+            <td>10:05 – 10:50</td>
+            <td><span class="lesson">Chem</span><span class="teacher">Mr Al Amin</span></td>
+            <td><span class="lesson">Chem</span><span class="teacher">Mr Al Amin</span></td>
+            <td><span class="lesson">Maths</span><span class="teacher">Mr Mizan</span></td>
+            <td><span class="lesson">Physics</span><span class="teacher">Mr Ashiq</span></td>
+            <td><span class="lesson">Chem</span><span class="teacher">Mr Al Amin</span></td>
+          </tr>
+          <tr class="break-row">
+            <th class="period" scope="row">3</th>
+            <td>10:50 – 11:10</td>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+          </tr>
+          <tr>
+            <th class="period" scope="row">4</th>
+            <td>11:10 – 11:55</td>
+            <td><span class="lesson">Maths</span><span class="teacher">Mr Mizan</span></td>
+            <td><span class="lesson">Maths</span><span class="teacher">Mr Mizan</span></td>
+            <td><span class="lesson">English Literature</span><span class="teacher">Mr Alam</span></td>
+            <td><span class="lesson">Maths</span><span class="teacher">Mr Mizan</span></td>
+            <td><span class="lesson">Physics</span><span class="teacher">Mr Ashiq</span></td>
+          </tr>
+          <tr>
+            <th class="period" scope="row">5</th>
+            <td>11:55 – 12:40</td>
+            <td><span class="lesson">Geography<br />Wider world</span><span class="teacher">Ms Anannaya</span></td>
+            <td><span class="lesson">Geography<br />BD &amp; Global Studies</span><span class="teacher">Ms Anannaya</span></td>
+            <td><span class="lesson">Biology</span><span class="teacher">Ms Tamanna</span></td>
+            <td><span class="lesson">Science</span><span class="teacher">Ms Zenia</span></td>
+            <td><span class="lesson">A Study of Islamic History</span><span class="teacher">Mr Alam</span></td>
+          </tr>
+          <tr>
+            <th class="period" scope="row">6</th>
+            <td>12:40 – 01:25</td>
+            <td><span class="lesson">Eng Literature</span><span class="teacher">Mr Alam</span></td>
+            <td><span class="lesson">Physics</span><span class="teacher">Mr Ashiq</span></td>
+            <td><span class="lesson">Bangla 1st</span><span class="teacher">Ms Nahar</span></td>
+            <td><span class="lesson">Bangla 1st</span><span class="teacher">Ms Nahar</span></td>
+            <td><span class="lesson">Biology</span><span class="teacher">Ms Tamanna</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+     
